@@ -1,0 +1,8 @@
+g++ -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -c -Wall -fopenmp -g -O0 -o alloc.o alloc.c
+g++ -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -c -Wall -fopenmp -g -O0 -o dmv.o dmv.c
+/usr/local/cuda/bin/nvcc -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -I/usr/local/cuda -c -ccbin g++  -arch sm_20 -g -O0 --ptxas-options=-v -o dmv_gpu.o dmv_gpu.cu
+/usr/local/cuda/bin/nvcc -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -I/usr/local/cuda -c -ccbin g++  -arch sm_20 -g -O0 --ptxas-options=-v -o dmv_main.o dmv_main.cu
+g++ -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -c -Wall -fopenmp -g -O0 -o error.o error.c
+/usr/local/cuda/bin/nvcc -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -I/usr/local/cuda -c -ccbin g++  -arch sm_20 -g -O0 --ptxas-options=-v -o gpu_util.o gpu_util.cu
+g++ -D__FLOAT_VALUES -DEPS=1e-2 -DSERIAL_KERNEL -DOPENMP_KERNEL -DGPU_KERNEL -D_DEBUG_ -c -Wall -fopenmp -g -O0 -o timer.o timer.c
+g++ -o dmv_main alloc.o dmv.o dmv_gpu.o dmv_main.o error.o gpu_util.o  timer.o -L/usr/local/cuda/lib64 -lcudart -lm -fopenmp 

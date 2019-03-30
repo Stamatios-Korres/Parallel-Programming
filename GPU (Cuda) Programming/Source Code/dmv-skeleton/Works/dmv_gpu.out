@@ -1,0 +1,2098 @@
+Benchmark started on Sun Jan  1 21:28:57 EET 2017 in termi1
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004788 s
+Performance:  0.438002 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.009276 s
+Performance:  0.226084 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 16x1
+Grid size : 64x1
+Shared memory size: 64 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.000933 s
+Performance:  2.247751 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004754 s
+Performance:  0.441134 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006182 s
+Performance:  0.339235 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 32x1
+Grid size : 32x1
+Shared memory size: 128 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001387 s
+Performance:  1.512006 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.010861 s
+Performance:  0.193090 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 48x1
+Grid size : 22x1
+Shared memory size: 192 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001401 s
+Performance:  1.496897 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004752 s
+Performance:  0.441320 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.018704 s
+Performance:  0.112123 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 64x1
+Grid size : 16x1
+Shared memory size: 256 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001399 s
+Performance:  1.499036 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004786 s
+Performance:  0.438185 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006486 s
+Performance:  0.323335 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 80x1
+Grid size : 13x1
+Shared memory size: 320 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001441 s
+Performance:  1.455345 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004784 s
+Performance:  0.438368 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004424 s
+Performance:  0.474040 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 96x1
+Grid size : 11x1
+Shared memory size: 384 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001399 s
+Performance:  1.499036 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004762 s
+Performance:  0.440393 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005107 s
+Performance:  0.410643 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 112x1
+Grid size : 10x1
+Shared memory size: 448 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001404 s
+Performance:  1.493698 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008056 s
+Performance:  0.260322 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 128x1
+Grid size : 8x1
+Shared memory size: 512 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001404 s
+Performance:  1.493698 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004777 s
+Performance:  0.439010 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.011223 s
+Performance:  0.186862 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 144x1
+Grid size : 8x1
+Shared memory size: 576 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001435 s
+Performance:  1.461430 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004784 s
+Performance:  0.438368 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004656 s
+Performance:  0.450419 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 160x1
+Grid size : 7x1
+Shared memory size: 640 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001438 s
+Performance:  1.458381 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006780 s
+Performance:  0.309314 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 176x1
+Grid size : 6x1
+Shared memory size: 704 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001486 s
+Performance:  1.411273 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004778 s
+Performance:  0.438918 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008322 s
+Performance:  0.252001 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 192x1
+Grid size : 6x1
+Shared memory size: 768 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001482 s
+Performance:  1.415082 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008147 s
+Performance:  0.257414 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 208x1
+Grid size : 5x1
+Shared memory size: 832 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001555 s
+Performance:  1.348651 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004768 s
+Performance:  0.439839 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005240 s
+Performance:  0.400220 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 224x1
+Grid size : 5x1
+Shared memory size: 896 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001775 s
+Performance:  1.181494 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004768 s
+Performance:  0.439839 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004829 s
+Performance:  0.434283 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 240x1
+Grid size : 5x1
+Shared memory size: 960 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.001836 s
+Performance:  1.142240 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004788 s
+Performance:  0.438002 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005107 s
+Performance:  0.410643 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 256x1
+Grid size : 4x1
+Shared memory size: 1024 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002003 s
+Performance:  1.047005 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004782 s
+Performance:  0.438551 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005608 s
+Performance:  0.373957 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 272x1
+Grid size : 4x1
+Shared memory size: 1088 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002115 s
+Performance:  0.991561 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004751 s
+Performance:  0.441413 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008959 s
+Performance:  0.234083 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 288x1
+Grid size : 4x1
+Shared memory size: 1152 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002314 s
+Performance:  0.906289 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004775 s
+Performance:  0.439194 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005629 s
+Performance:  0.372562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 304x1
+Grid size : 4x1
+Shared memory size: 1216 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002448 s
+Performance:  0.856680 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004783 s
+Performance:  0.438460 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.011796 s
+Performance:  0.177785 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 320x1
+Grid size : 4x1
+Shared memory size: 1280 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002516 s
+Performance:  0.833526 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.012214 s
+Performance:  0.171701 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 336x1
+Grid size : 4x1
+Shared memory size: 1344 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002580 s
+Performance:  0.812850 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004771 s
+Performance:  0.439562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.010313 s
+Performance:  0.203350 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 352x1
+Grid size : 3x1
+Shared memory size: 1408 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002758 s
+Performance:  0.760389 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004783 s
+Performance:  0.438460 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005616 s
+Performance:  0.373425 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 368x1
+Grid size : 3x1
+Shared memory size: 1472 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002812 s
+Performance:  0.745787 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004783 s
+Performance:  0.438460 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006789 s
+Performance:  0.308904 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 384x1
+Grid size : 3x1
+Shared memory size: 1536 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.002971 s
+Performance:  0.705874 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004765 s
+Performance:  0.440116 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006351 s
+Performance:  0.330208 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 400x1
+Grid size : 3x1
+Shared memory size: 1600 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003023 s
+Performance:  0.693732 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005425 s
+Performance:  0.386572 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 416x1
+Grid size : 3x1
+Shared memory size: 1664 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003129 s
+Performance:  0.670231 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004795 s
+Performance:  0.437362 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.012418 s
+Performance:  0.168880 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 432x1
+Grid size : 3x1
+Shared memory size: 1728 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003265 s
+Performance:  0.642313 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.010708 s
+Performance:  0.195849 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 448x1
+Grid size : 3x1
+Shared memory size: 1792 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003385 s
+Performance:  0.619543 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004771 s
+Performance:  0.439562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007221 s
+Performance:  0.290424 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 464x1
+Grid size : 3x1
+Shared memory size: 1856 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003484 s
+Performance:  0.601938 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004784 s
+Performance:  0.438368 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004509 s
+Performance:  0.465104 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 480x1
+Grid size : 3x1
+Shared memory size: 1920 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003611 s
+Performance:  0.580768 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004767 s
+Performance:  0.439931 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007427 s
+Performance:  0.282369 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 496x1
+Grid size : 3x1
+Shared memory size: 1984 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003717 s
+Performance:  0.564206 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004765 s
+Performance:  0.440116 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008573 s
+Performance:  0.244623 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 512x1
+Grid size : 2x1
+Shared memory size: 2048 bytes
+GPU kernel version: naive
+Checking ... PASSED
+Elapsed time: 0.003835 s
+Performance:  0.546845 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005151 s
+Performance:  0.407135 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 16x1
+Grid size : 64x1
+Shared memory size: 64 bytes
+GPU kernel version: coalesced
+Checking ... PASSED
+Elapsed time: 0.000688 s
+Performance:  3.048186 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007254 s
+Performance:  0.289103 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 32x1
+Grid size : 32x1
+Shared memory size: 128 bytes
+GPU kernel version: coalesced
+Checking ... PASSED
+Elapsed time: 0.000693 s
+Performance:  3.026193 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004774 s
+Performance:  0.439286 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006494 s
+Performance:  0.322937 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 48x1
+Grid size : 22x1
+Shared memory size: 192 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007045 s
+Performance:  0.297679 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 64x1
+Grid size : 16x1
+Shared memory size: 256 bytes
+GPU kernel version: coalesced
+Checking ... PASSED
+Elapsed time: 0.000691 s
+Performance:  3.034952 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004780 s
+Performance:  0.438735 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006052 s
+Performance:  0.346522 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 80x1
+Grid size : 13x1
+Shared memory size: 320 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004767 s
+Performance:  0.439931 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004578 s
+Performance:  0.458093 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 96x1
+Grid size : 11x1
+Shared memory size: 384 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004815 s
+Performance:  0.435546 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.012321 s
+Performance:  0.170210 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 112x1
+Grid size : 10x1
+Shared memory size: 448 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004779 s
+Performance:  0.438827 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.010364 s
+Performance:  0.202350 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 128x1
+Grid size : 8x1
+Shared memory size: 512 bytes
+GPU kernel version: coalesced
+Checking ... PASSED
+Elapsed time: 0.000690 s
+Performance:  3.039351 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007672 s
+Performance:  0.273351 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 144x1
+Grid size : 8x1
+Shared memory size: 576 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004783 s
+Performance:  0.438460 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006084 s
+Performance:  0.344700 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 160x1
+Grid size : 7x1
+Shared memory size: 640 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004765 s
+Performance:  0.440116 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005768 s
+Performance:  0.363584 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 176x1
+Grid size : 6x1
+Shared memory size: 704 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004778 s
+Performance:  0.438918 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006217 s
+Performance:  0.337325 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 192x1
+Grid size : 6x1
+Shared memory size: 768 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007492 s
+Performance:  0.279919 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 208x1
+Grid size : 5x1
+Shared memory size: 832 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005359 s
+Performance:  0.391333 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 224x1
+Grid size : 5x1
+Shared memory size: 896 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004782 s
+Performance:  0.438551 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004013 s
+Performance:  0.522590 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 240x1
+Grid size : 5x1
+Shared memory size: 960 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004845 s
+Performance:  0.432849 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.010889 s
+Performance:  0.192594 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 256x1
+Grid size : 4x1
+Shared memory size: 1024 bytes
+GPU kernel version: coalesced
+Checking ... PASSED
+Elapsed time: 0.000690 s
+Performance:  3.039351 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004765 s
+Performance:  0.440116 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004220 s
+Performance:  0.496955 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 272x1
+Grid size : 4x1
+Shared memory size: 1088 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004764 s
+Performance:  0.440208 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.009953 s
+Performance:  0.210706 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 288x1
+Grid size : 4x1
+Shared memory size: 1152 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004809 s
+Performance:  0.436089 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005481 s
+Performance:  0.382622 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 304x1
+Grid size : 4x1
+Shared memory size: 1216 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005512 s
+Performance:  0.380470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 320x1
+Grid size : 4x1
+Shared memory size: 1280 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004767 s
+Performance:  0.439931 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005520 s
+Performance:  0.379919 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 336x1
+Grid size : 4x1
+Shared memory size: 1344 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004771 s
+Performance:  0.439562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006686 s
+Performance:  0.313663 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 352x1
+Grid size : 3x1
+Shared memory size: 1408 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004787 s
+Performance:  0.438093 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.009076 s
+Performance:  0.231066 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 368x1
+Grid size : 3x1
+Shared memory size: 1472 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004790 s
+Performance:  0.437819 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006194 s
+Performance:  0.338578 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 384x1
+Grid size : 3x1
+Shared memory size: 1536 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004843 s
+Performance:  0.433027 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006245 s
+Performance:  0.335813 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 400x1
+Grid size : 3x1
+Shared memory size: 1600 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004750 s
+Performance:  0.441506 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007256 s
+Performance:  0.289023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 416x1
+Grid size : 3x1
+Shared memory size: 1664 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004777 s
+Performance:  0.439010 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006515 s
+Performance:  0.321896 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 432x1
+Grid size : 3x1
+Shared memory size: 1728 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004768 s
+Performance:  0.439839 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005449 s
+Performance:  0.384869 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 448x1
+Grid size : 3x1
+Shared memory size: 1792 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004764 s
+Performance:  0.440208 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007663 s
+Performance:  0.273672 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 464x1
+Grid size : 3x1
+Shared memory size: 1856 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004783 s
+Performance:  0.438460 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005135 s
+Performance:  0.408404 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 480x1
+Grid size : 3x1
+Shared memory size: 1920 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004771 s
+Performance:  0.439562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005176 s
+Performance:  0.405168 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 496x1
+Grid size : 3x1
+Shared memory size: 1984 bytes
+GPU kernel version: coalesced
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004789 s
+Performance:  0.437910 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008706 s
+Performance:  0.240886 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 512x1
+Grid size : 2x1
+Shared memory size: 2048 bytes
+GPU kernel version: coalesced
+Checking ... PASSED
+Elapsed time: 0.000687 s
+Performance:  3.052623 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004770 s
+Performance:  0.439655 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005269 s
+Performance:  0.398017 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 16x1
+Grid size : 64x1
+Shared memory size: 64 bytes
+GPU kernel version: shmem
+Checking ... PASSED
+Elapsed time: 0.000504 s
+Performance:  4.161016 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004831 s
+Performance:  0.434103 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008857 s
+Performance:  0.236779 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 32x1
+Grid size : 32x1
+Shared memory size: 128 bytes
+GPU kernel version: shmem
+Checking ... PASSED
+Elapsed time: 0.000486 s
+Performance:  4.315128 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004781 s
+Performance:  0.438643 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004616 s
+Performance:  0.454322 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 48x1
+Grid size : 22x1
+Shared memory size: 192 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004785 s
+Performance:  0.438276 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.015204 s
+Performance:  0.137934 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 64x1
+Grid size : 16x1
+Shared memory size: 256 bytes
+GPU kernel version: shmem
+Checking ... PASSED
+Elapsed time: 0.000473 s
+Performance:  4.433725 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004789 s
+Performance:  0.437910 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005988 s
+Performance:  0.350226 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 80x1
+Grid size : 13x1
+Shared memory size: 320 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004789 s
+Performance:  0.437910 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005239 s
+Performance:  0.400296 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 96x1
+Grid size : 11x1
+Shared memory size: 384 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004771 s
+Performance:  0.439562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004375 s
+Performance:  0.479349 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 112x1
+Grid size : 10x1
+Shared memory size: 448 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004770 s
+Performance:  0.439655 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006094 s
+Performance:  0.344134 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 128x1
+Grid size : 8x1
+Shared memory size: 512 bytes
+GPU kernel version: shmem
+Checking ... PASSED
+Elapsed time: 0.000467 s
+Performance:  4.490690 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004795 s
+Performance:  0.437362 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006597 s
+Performance:  0.317895 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 144x1
+Grid size : 8x1
+Shared memory size: 576 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004775 s
+Performance:  0.439194 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005406 s
+Performance:  0.387930 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 160x1
+Grid size : 7x1
+Shared memory size: 640 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004773 s
+Performance:  0.439378 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006452 s
+Performance:  0.325039 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 176x1
+Grid size : 6x1
+Shared memory size: 704 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004770 s
+Performance:  0.439655 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005817 s
+Performance:  0.360521 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 192x1
+Grid size : 6x1
+Shared memory size: 768 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006957 s
+Performance:  0.301445 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 208x1
+Grid size : 5x1
+Shared memory size: 832 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004768 s
+Performance:  0.439839 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005070 s
+Performance:  0.413639 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 224x1
+Grid size : 5x1
+Shared memory size: 896 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005745 s
+Performance:  0.365040 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 240x1
+Grid size : 5x1
+Shared memory size: 960 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004790 s
+Performance:  0.437819 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005781 s
+Performance:  0.362766 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 256x1
+Grid size : 4x1
+Shared memory size: 1024 bytes
+GPU kernel version: shmem
+Checking ... PASSED
+Elapsed time: 0.000467 s
+Performance:  4.490690 Gflop/s
+>>>> End of record <<<<
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004771 s
+Performance:  0.439562 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007330 s
+Performance:  0.286105 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 272x1
+Grid size : 4x1
+Shared memory size: 1088 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004773 s
+Performance:  0.439378 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005438 s
+Performance:  0.385648 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 288x1
+Grid size : 4x1
+Shared memory size: 1152 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004789 s
+Performance:  0.437910 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005610 s
+Performance:  0.373824 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 304x1
+Grid size : 4x1
+Shared memory size: 1216 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004773 s
+Performance:  0.439378 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005868 s
+Performance:  0.357388 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 320x1
+Grid size : 4x1
+Shared memory size: 1280 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004772 s
+Performance:  0.439470 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008499 s
+Performance:  0.246753 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 336x1
+Grid size : 4x1
+Shared memory size: 1344 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004767 s
+Performance:  0.439931 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006807 s
+Performance:  0.308088 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 352x1
+Grid size : 3x1
+Shared memory size: 1408 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004765 s
+Performance:  0.440116 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004279 s
+Performance:  0.490103 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 368x1
+Grid size : 3x1
+Shared memory size: 1472 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004774 s
+Performance:  0.439286 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006489 s
+Performance:  0.323186 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 384x1
+Grid size : 3x1
+Shared memory size: 1536 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004755 s
+Performance:  0.441041 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005659 s
+Performance:  0.370587 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 400x1
+Grid size : 3x1
+Shared memory size: 1600 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004767 s
+Performance:  0.439931 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005875 s
+Performance:  0.356962 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 416x1
+Grid size : 3x1
+Shared memory size: 1664 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004767 s
+Performance:  0.439931 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007500 s
+Performance:  0.279620 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 432x1
+Grid size : 3x1
+Shared memory size: 1728 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004765 s
+Performance:  0.440116 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.006890 s
+Performance:  0.304376 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 448x1
+Grid size : 3x1
+Shared memory size: 1792 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004773 s
+Performance:  0.439378 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.004781 s
+Performance:  0.438643 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 464x1
+Grid size : 3x1
+Shared memory size: 1856 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004791 s
+Performance:  0.437727 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.008064 s
+Performance:  0.260063 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 480x1
+Grid size : 3x1
+Shared memory size: 1920 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004766 s
+Performance:  0.440023 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.007290 s
+Performance:  0.287675 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 496x1
+Grid size : 3x1
+Shared memory size: 1984 bytes
+GPU kernel version: shmem
+Matrix size: 1024
+Adjusted matrix size: 1024
+>>>> Begin of record <<<<
+Serial version:
+Elapsed time: 0.004745 s
+Performance:  0.441971 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+OpenMP version:
+Checking ... PASSED
+Elapsed time: 0.005266 s
+Performance:  0.398244 Gflop/s
+>>>> End of record <<<<
+
+>>>> Begin of record <<<<
+Block size: 512x1
+Grid size : 2x1
+Shared memory size: 2048 bytes
+GPU kernel version: shmem
+Checking ... PASSED
+Elapsed time: 0.000465 s
+Performance:  4.510004 Gflop/s
+>>>> End of record <<<<
+Benchmark ended on Sun Jan  1 21:30:58 EET 2017 in termi1
